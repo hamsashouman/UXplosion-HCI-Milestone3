@@ -1,0 +1,393 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" type="device">
+  <diagram id="htd-1" name="HTD 1">
+    <mxGraphModel dx="1200" dy="1000" grid="1" gridSize="10" page="1" pageScale="1" pageWidth="1169" pageHeight="1100">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="root" value="0. Student views exam results and personalized feedback" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e5d9f5;strokeColor=#bba7d8;fontColor=#30283f;fontSize=14;spacing=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="340" y="30" width="480" height="85" />
+        </mxCell>
+        <mxCell id="g0" value="A. Open the task" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e9e2f2;strokeColor=#bba7d8;fontColor=#30283f;fontSize=14;spacing=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="175" width="335" height="55" />
+        </mxCell>
+        <mxCell id="eg0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#a895c0;" edge="1" parent="1" source="root" target="g0">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="n1" value="1. Open Student overview and click My exams." style="rounded=1;whiteSpace=wrap;html=0;fillColor=#f3effb;strokeColor=#bba7d8;fontColor=#30283f;fontSize=14;spacing=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="280" width="335" height="120" />
+        </mxCell>
+        <mxCell id="en1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#a895c0;" edge="1" parent="1" source="g0" target="n1">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="n2" value="2. Choose a teacher-released assessment. If pending, read its review status and stop." style="rounded=1;whiteSpace=wrap;html=0;fillColor=#f3effb;strokeColor=#bba7d8;fontColor=#30283f;fontSize=14;spacing=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="435" width="335" height="120" />
+        </mxCell>
+        <mxCell id="en2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#a895c0;" edge="1" parent="1" source="g0" target="n2">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="g1" value="B. Review or edit" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e9e2f2;strokeColor=#bba7d8;fontColor=#30283f;fontSize=14;spacing=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="415" y="175" width="335" height="55" />
+        </mxCell>
+        <mxCell id="eg1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#a895c0;" edge="1" parent="1" source="root" target="g1">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="n3" value="3. Read the displayed final grade, question-level marks, and corrected answers." style="rounded=1;whiteSpace=wrap;html=0;fillColor=#f3effb;strokeColor=#bba7d8;fontColor=#30283f;fontSize=14;spacing=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="415" y="280" width="335" height="120" />
+        </mxCell>
+        <mxCell id="en3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#a895c0;" edge="1" parent="1" source="g1" target="n3">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="n4" value="4. Read the teacher-approved feedback and topic needing practice." style="rounded=1;whiteSpace=wrap;html=0;fillColor=#f3effb;strokeColor=#bba7d8;fontColor=#30283f;fontSize=14;spacing=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="415" y="435" width="335" height="120" />
+        </mxCell>
+        <mxCell id="en4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#a895c0;" edge="1" parent="1" source="g1" target="n4">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="g2" value="C. Confirm and follow up" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e9e2f2;strokeColor=#bba7d8;fontColor=#30283f;fontSize=14;spacing=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="790" y="175" width="335" height="55" />
+        </mxCell>
+        <mxCell id="eg2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#a895c0;" edge="1" parent="1" source="root" target="g2">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="n5" value="5. Read the recommended practice; click See my progress if desired." style="rounded=1;whiteSpace=wrap;html=0;fillColor=#f3effb;strokeColor=#bba7d8;fontColor=#30283f;fontSize=14;spacing=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="790" y="280" width="335" height="120" />
+        </mxCell>
+        <mxCell id="en5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#a895c0;" edge="1" parent="1" source="g2" target="n5">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="plan" value="Plan 0: Do 1–4 in order. Do 5 when a recommendation is available." style="rounded=1;whiteSpace=wrap;html=0;fillColor=#edf6f0;strokeColor=#bba7d8;fontColor=#30283f;fontSize=14;spacing=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="80" y="650" width="1010" height="130" />
+        </mxCell>
+        <mxCell id="note" value="UXplosion · Milestone 3 · HTD 1 matches HTA 1 in Milestone 2. The leaves describe concrete interface actions; branches group actions by phase." style="rounded=1;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#bba7d8;fontColor=#30283f;fontSize=14;spacing=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="80" y="810" width="1010" height="80" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="htd-2" name="HTD 2">
+    <mxGraphModel dx="1200" dy="1000" grid="1" gridSize="10" page="1" pageScale="1" pageWidth="1169" pageHeight="1100">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="root" value="0. Teacher verifies OCR-extracted answers" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e5d9f5;strokeColor=#bba7d8;fontColor=#30283f;fontSize=14;spacing=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="340" y="30" width="480" height="85" />
+        </mxCell>
+        <mxCell id="g0" value="A. Open the task" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e9e2f2;strokeColor=#bba7d8;fontColor=#30283f;fontSize=14;spacing=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="175" width="335" height="55" />
+        </mxCell>
+        <mxCell id="eg0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#a895c0;" edge="1" parent="1" source="root" target="g0">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="n1" value="1. Open Assessment review to access the current submitted exam." style="rounded=1;whiteSpace=wrap;html=0;fillColor=#f3effb;strokeColor=#bba7d8;fontColor=#30283f;fontSize=14;spacing=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="280" width="335" height="120" />
+        </mxCell>
+        <mxCell id="en1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#a895c0;" edge="1" parent="1" source="g0" target="n1">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="g1" value="B. Review or edit" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e9e2f2;strokeColor=#bba7d8;fontColor=#30283f;fontSize=14;spacing=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="415" y="175" width="335" height="55" />
+        </mxCell>
+        <mxCell id="eg1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#a895c0;" edge="1" parent="1" source="root" target="g1">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="n2" value="2. Compare each original paper answer with its extracted text." style="rounded=1;whiteSpace=wrap;html=0;fillColor=#f3effb;strokeColor=#bba7d8;fontColor=#30283f;fontSize=14;spacing=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="415" y="280" width="335" height="120" />
+        </mxCell>
+        <mxCell id="en2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#a895c0;" edge="1" parent="1" source="g1" target="n2">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="n3" value="3. Edit any mismatched OCR text; repeat for all three questions." style="rounded=1;whiteSpace=wrap;html=0;fillColor=#f3effb;strokeColor=#bba7d8;fontColor=#30283f;fontSize=14;spacing=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="415" y="435" width="335" height="120" />
+        </mxCell>
+        <mxCell id="en3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#a895c0;" edge="1" parent="1" source="g1" target="n3">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="g2" value="C. Confirm and follow up" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e9e2f2;strokeColor=#bba7d8;fontColor=#30283f;fontSize=14;spacing=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="790" y="175" width="335" height="55" />
+        </mxCell>
+        <mxCell id="eg2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#a895c0;" edge="1" parent="1" source="root" target="g2">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="n4" value="4. Click Confirm answers &amp; continue to unlock grade review." style="rounded=1;whiteSpace=wrap;html=0;fillColor=#f3effb;strokeColor=#bba7d8;fontColor=#30283f;fontSize=14;spacing=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="790" y="280" width="335" height="120" />
+        </mxCell>
+        <mxCell id="en4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#a895c0;" edge="1" parent="1" source="g2" target="n4">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="plan" value="Plan 0: Repeat 2–3 until the extracted answers are checked; then do 4." style="rounded=1;whiteSpace=wrap;html=0;fillColor=#edf6f0;strokeColor=#bba7d8;fontColor=#30283f;fontSize=14;spacing=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="80" y="650" width="1010" height="130" />
+        </mxCell>
+        <mxCell id="note" value="UXplosion · Milestone 3 · HTD 2 matches HTA 2 in Milestone 2. The leaves describe concrete interface actions; branches group actions by phase." style="rounded=1;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#bba7d8;fontColor=#30283f;fontSize=14;spacing=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="80" y="810" width="1010" height="80" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="htd-3" name="HTD 3">
+    <mxGraphModel dx="1200" dy="1000" grid="1" gridSize="10" page="1" pageScale="1" pageWidth="1169" pageHeight="1100">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="root" value="0. Teacher reviews and tracks evidence-based learning gaps" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e5d9f5;strokeColor=#bba7d8;fontColor=#30283f;fontSize=14;spacing=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="340" y="30" width="480" height="85" />
+        </mxCell>
+        <mxCell id="g0" value="A. Open the task" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e9e2f2;strokeColor=#bba7d8;fontColor=#30283f;fontSize=14;spacing=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="175" width="335" height="55" />
+        </mxCell>
+        <mxCell id="eg0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#a895c0;" edge="1" parent="1" source="root" target="g0">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="n1" value="1. Open Students → Open learning profile, or Learning gaps." style="rounded=1;whiteSpace=wrap;html=0;fillColor=#f3effb;strokeColor=#bba7d8;fontColor=#30283f;fontSize=14;spacing=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="280" width="335" height="120" />
+        </mxCell>
+        <mxCell id="en1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#a895c0;" edge="1" parent="1" source="g0" target="n1">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="n2" value="2. Select Comparing fractions and read the linked questions and answers." style="rounded=1;whiteSpace=wrap;html=0;fillColor=#f3effb;strokeColor=#bba7d8;fontColor=#30283f;fontSize=14;spacing=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="435" width="335" height="120" />
+        </mxCell>
+        <mxCell id="en2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#a895c0;" edge="1" parent="1" source="g0" target="n2">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="g1" value="B. Review or edit" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e9e2f2;strokeColor=#bba7d8;fontColor=#30283f;fontSize=14;spacing=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="415" y="175" width="335" height="55" />
+        </mxCell>
+        <mxCell id="eg1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#a895c0;" edge="1" parent="1" source="root" target="g1">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="n3" value="3. Compare the recurring misconception across the assessment timeline." style="rounded=1;whiteSpace=wrap;html=0;fillColor=#f3effb;strokeColor=#bba7d8;fontColor=#30283f;fontSize=14;spacing=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="415" y="280" width="335" height="120" />
+        </mxCell>
+        <mxCell id="en3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#a895c0;" edge="1" parent="1" source="g1" target="n3">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="n4" value="4. Tick the evidence-review acknowledgement checkbox after inspecting the evidence." style="rounded=1;whiteSpace=wrap;html=0;fillColor=#f3effb;strokeColor=#bba7d8;fontColor=#30283f;fontSize=14;spacing=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="415" y="435" width="335" height="120" />
+        </mxCell>
+        <mxCell id="en4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#a895c0;" edge="1" parent="1" source="g1" target="n4">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="g2" value="C. Confirm and follow up" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e9e2f2;strokeColor=#bba7d8;fontColor=#30283f;fontSize=14;spacing=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="790" y="175" width="335" height="55" />
+        </mxCell>
+        <mxCell id="eg2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#a895c0;" edge="1" parent="1" source="root" target="g2">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="n5" value="5. Confirm or dismiss the current learning-gap suggestion; separately review the support flag." style="rounded=1;whiteSpace=wrap;html=0;fillColor=#f3effb;strokeColor=#bba7d8;fontColor=#30283f;fontSize=14;spacing=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="790" y="280" width="335" height="120" />
+        </mxCell>
+        <mxCell id="en5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#a895c0;" edge="1" parent="1" source="g2" target="n5">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="plan" value="Plan 0: Do 1–3, then acknowledge reviewed evidence in 4 before 5. Review the support flag separately. Confirming adds the current evidence; dismissing preserves previously confirmed evidence. Then do 6." style="rounded=1;whiteSpace=wrap;html=0;fillColor=#edf6f0;strokeColor=#bba7d8;fontColor=#30283f;fontSize=14;spacing=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="80" y="650" width="1010" height="130" />
+        </mxCell>
+        <mxCell id="note" value="UXplosion · Milestone 3 · HTD 3 matches HTA 3 in Milestone 2. The leaves describe concrete interface actions; branches group actions by phase." style="rounded=1;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#bba7d8;fontColor=#30283f;fontSize=14;spacing=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="80" y="810" width="1010" height="80" />
+        </mxCell>
+      <mxCell id="n6" value="6. Read the updated evidence count and recurring/improving status." style="rounded=1;whiteSpace=wrap;html=0;fillColor=#f3effb;strokeColor=#bba7d8;fontColor=#30283f;fontSize=14;spacing=12;" vertex="1" parent="1"><mxGeometry as="geometry" x="790" y="435" width="335" height="120" /></mxCell><mxCell id="egn6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#a895c0;" edge="1" parent="1" source="g2" target="n6"><mxGeometry as="geometry" relative="1" /></mxCell></root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="htd-4" name="HTD 4">
+    <mxGraphModel dx="1200" dy="1000" grid="1" gridSize="10" page="1" pageScale="1" pageWidth="1169" pageHeight="1100">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="root" value="0. Teacher plans and tracks learning-gap support plans" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e5d9f5;strokeColor=#bba7d8;fontColor=#30283f;fontSize=14;spacing=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="340" y="30" width="480" height="85" />
+        </mxCell>
+        <mxCell id="g0" value="A. Open the task" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e9e2f2;strokeColor=#bba7d8;fontColor=#30283f;fontSize=14;spacing=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="175" width="335" height="55" />
+        </mxCell>
+        <mxCell id="eg0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#a895c0;" edge="1" parent="1" source="root" target="g0">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="n1" value="1. From Learning gaps, click Open support plan." style="rounded=1;whiteSpace=wrap;html=0;fillColor=#f3effb;strokeColor=#bba7d8;fontColor=#30283f;fontSize=14;spacing=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="280" width="335" height="120" />
+        </mxCell>
+        <mxCell id="en1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#a895c0;" edge="1" parent="1" source="g0" target="n1">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="n2" value="2. Enter an improvement goal, measurable target, and recommended support activity." style="rounded=1;whiteSpace=wrap;html=0;fillColor=#f3effb;strokeColor=#bba7d8;fontColor=#30283f;fontSize=14;spacing=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="435" width="335" height="120" />
+        </mxCell>
+        <mxCell id="en2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#a895c0;" edge="1" parent="1" source="g0" target="n2">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="g1" value="B. Review or edit" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e9e2f2;strokeColor=#bba7d8;fontColor=#30283f;fontSize=14;spacing=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="415" y="175" width="335" height="55" />
+        </mxCell>
+        <mxCell id="eg1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#a895c0;" edge="1" parent="1" source="root" target="g1">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="n3" value="3. Set a follow-up date and click Save support plan." style="rounded=1;whiteSpace=wrap;html=0;fillColor=#f3effb;strokeColor=#bba7d8;fontColor=#30283f;fontSize=14;spacing=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="415" y="280" width="335" height="120" />
+        </mxCell>
+        <mxCell id="en3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#a895c0;" edge="1" parent="1" source="g1" target="n3">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="n4" value="4. After the activity, check Support activity completed and click Save plan changes." style="rounded=1;whiteSpace=wrap;html=0;fillColor=#f3effb;strokeColor=#bba7d8;fontColor=#30283f;fontSize=14;spacing=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="415" y="435" width="335" height="120" />
+        </mxCell>
+        <mxCell id="en4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#a895c0;" edge="1" parent="1" source="g1" target="n4">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="g2" value="C. Confirm and follow up" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e9e2f2;strokeColor=#bba7d8;fontColor=#30283f;fontSize=14;spacing=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="790" y="175" width="335" height="55" />
+        </mxCell>
+        <mxCell id="eg2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#a895c0;" edge="1" parent="1" source="root" target="g2">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="n5" value="5. Review sample follow-up evidence and compare it with the measurable target." style="rounded=1;whiteSpace=wrap;html=0;fillColor=#f3effb;strokeColor=#bba7d8;fontColor=#30283f;fontSize=14;spacing=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="790" y="280" width="335" height="120" />
+        </mxCell>
+        <mxCell id="en5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#a895c0;" edge="1" parent="1" source="g2" target="n5">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="n6" value="6. Choose Ongoing, Successful, or Requires further support; enter notes and click Record outcome." style="rounded=1;whiteSpace=wrap;html=0;fillColor=#f3effb;strokeColor=#bba7d8;fontColor=#30283f;fontSize=14;spacing=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="790" y="435" width="335" height="120" />
+        </mxCell>
+        <mxCell id="en6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#a895c0;" edge="1" parent="1" source="g2" target="n6">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="plan" value="Plan 0: Do 1–3 to create the plan. At follow-up, do 4–6 in order." style="rounded=1;whiteSpace=wrap;html=0;fillColor=#edf6f0;strokeColor=#bba7d8;fontColor=#30283f;fontSize=14;spacing=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="80" y="650" width="1010" height="130" />
+        </mxCell>
+        <mxCell id="note" value="UXplosion · Milestone 3 · HTD 4 matches HTA 4 in Milestone 2. The leaves describe concrete interface actions; branches group actions by phase." style="rounded=1;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#bba7d8;fontColor=#30283f;fontSize=14;spacing=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="80" y="810" width="1010" height="80" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="htd-5" name="HTD 5">
+    <mxGraphModel dx="1200" dy="1000" grid="1" gridSize="10" page="1" pageScale="1" pageWidth="1169" pageHeight="1100">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="root" value="0. Teacher reviews and confirms AI grades" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e5d9f5;strokeColor=#bba7d8;fontColor=#30283f;fontSize=14;spacing=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="340" y="30" width="480" height="85" />
+        </mxCell>
+        <mxCell id="g0" value="A. Open the task" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e9e2f2;strokeColor=#bba7d8;fontColor=#30283f;fontSize=14;spacing=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="175" width="335" height="55" />
+        </mxCell>
+        <mxCell id="eg0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#a895c0;" edge="1" parent="1" source="root" target="g0">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="n1" value="1. Open Assessment review after OCR text is confirmed." style="rounded=1;whiteSpace=wrap;html=0;fillColor=#f3effb;strokeColor=#bba7d8;fontColor=#30283f;fontSize=14;spacing=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="280" width="335" height="120" />
+        </mxCell>
+        <mxCell id="en1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#a895c0;" edge="1" parent="1" source="g0" target="n1">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="g1" value="B. Review or edit" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e9e2f2;strokeColor=#bba7d8;fontColor=#30283f;fontSize=14;spacing=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="415" y="175" width="335" height="55" />
+        </mxCell>
+        <mxCell id="eg1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#a895c0;" edge="1" parent="1" source="root" target="g1">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="n2" value="2. Compare each verified student answer with its model answer and AI explanation." style="rounded=1;whiteSpace=wrap;html=0;fillColor=#f3effb;strokeColor=#bba7d8;fontColor=#30283f;fontSize=14;spacing=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="415" y="280" width="335" height="120" />
+        </mxCell>
+        <mxCell id="en2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#a895c0;" edge="1" parent="1" source="g1" target="n2">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="n3" value="3. Adjust the Final teacher mark field if the rubric requires a different score." style="rounded=1;whiteSpace=wrap;html=0;fillColor=#f3effb;strokeColor=#bba7d8;fontColor=#30283f;fontSize=14;spacing=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="415" y="435" width="335" height="120" />
+        </mxCell>
+        <mxCell id="en3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#a895c0;" edge="1" parent="1" source="g1" target="n3">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="g2" value="C. Confirm and follow up" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e9e2f2;strokeColor=#bba7d8;fontColor=#30283f;fontSize=14;spacing=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="790" y="175" width="335" height="55" />
+        </mxCell>
+        <mxCell id="eg2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#a895c0;" edge="1" parent="1" source="root" target="g2">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="n4" value="4. Repeat for every question; click Confirm grades &amp; review learning gaps." style="rounded=1;whiteSpace=wrap;html=0;fillColor=#f3effb;strokeColor=#bba7d8;fontColor=#30283f;fontSize=14;spacing=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="790" y="280" width="335" height="120" />
+        </mxCell>
+        <mxCell id="en4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#a895c0;" edge="1" parent="1" source="g2" target="n4">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="plan" value="Plan 0: Repeat 2–3 for all questions before 4. Then complete the teacher decisions and feedback in 5 before releasing results; grades remain hidden until release." style="rounded=1;whiteSpace=wrap;html=0;fillColor=#edf6f0;strokeColor=#bba7d8;fontColor=#30283f;fontSize=14;spacing=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="80" y="650" width="1010" height="130" />
+        </mxCell>
+        <mxCell id="note" value="UXplosion · Milestone 3 · HTD 5 matches HTA 5 in Milestone 2. The leaves describe concrete interface actions; branches group actions by phase." style="rounded=1;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#bba7d8;fontColor=#30283f;fontSize=14;spacing=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="80" y="810" width="1010" height="80" />
+        </mxCell>
+      <mxCell id="n5" value="5. Review learning-gap and support-flag evidence and decisions; edit teacher feedback, then click Release results &amp; notify student after all required reviews." style="rounded=1;whiteSpace=wrap;html=0;fillColor=#f3effb;strokeColor=#bba7d8;fontColor=#30283f;fontSize=14;spacing=12;" vertex="1" parent="1"><mxGeometry as="geometry" x="790" y="435" width="335" height="120" /></mxCell><mxCell id="egn5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#a895c0;" edge="1" parent="1" source="g2" target="n5"><mxGeometry as="geometry" relative="1" /></mxCell></root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="htd-6" name="HTD 6">
+    <mxGraphModel dx="1200" dy="1000" grid="1" gridSize="10" page="1" pageScale="1" pageWidth="1169" pageHeight="1100">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="root" value="0. Student uploads an exam" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e5d9f5;strokeColor=#bba7d8;fontColor=#30283f;fontSize=14;spacing=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="340" y="30" width="480" height="85" />
+        </mxCell>
+        <mxCell id="g0" value="A. Open the task" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e9e2f2;strokeColor=#bba7d8;fontColor=#30283f;fontSize=14;spacing=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="175" width="335" height="55" />
+        </mxCell>
+        <mxCell id="eg0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#a895c0;" edge="1" parent="1" source="root" target="g0">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="n1" value="1. Click Upload an exam in Student view." style="rounded=1;whiteSpace=wrap;html=0;fillColor=#f3effb;strokeColor=#bba7d8;fontColor=#30283f;fontSize=14;spacing=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="280" width="335" height="120" />
+        </mxCell>
+        <mxCell id="en1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#a895c0;" edge="1" parent="1" source="g0" target="n1">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="n2" value="2. Enter the assessment title; choose Mathematics and the exam language (English or German)." style="rounded=1;whiteSpace=wrap;html=0;fillColor=#f3effb;strokeColor=#bba7d8;fontColor=#30283f;fontSize=14;spacing=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="435" width="335" height="120" />
+        </mxCell>
+        <mxCell id="en2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#a895c0;" edge="1" parent="1" source="g0" target="n2">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="g1" value="B. Review or edit" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e9e2f2;strokeColor=#bba7d8;fontColor=#30283f;fontSize=14;spacing=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="415" y="175" width="335" height="55" />
+        </mxCell>
+        <mxCell id="eg1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#a895c0;" edge="1" parent="1" source="root" target="g1">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="n3" value="3. Choose a supported image/PDF up to 10 MB, or Use a sample exam." style="rounded=1;whiteSpace=wrap;html=0;fillColor=#f3effb;strokeColor=#bba7d8;fontColor=#30283f;fontSize=14;spacing=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="415" y="280" width="335" height="120" />
+        </mxCell>
+        <mxCell id="en3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#a895c0;" edge="1" parent="1" source="g1" target="n3">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="n4" value="4. Click Preview exam and check the paper. If incorrect, click Choose another file and repeat 3–4." style="rounded=1;whiteSpace=wrap;html=0;fillColor=#f3effb;strokeColor=#bba7d8;fontColor=#30283f;fontSize=14;spacing=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="415" y="435" width="335" height="120" />
+        </mxCell>
+        <mxCell id="en4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#a895c0;" edge="1" parent="1" source="g1" target="n4">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="g2" value="C. Confirm and follow up" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e9e2f2;strokeColor=#bba7d8;fontColor=#30283f;fontSize=14;spacing=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="790" y="175" width="335" height="55" />
+        </mxCell>
+        <mxCell id="eg2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#a895c0;" edge="1" parent="1" source="root" target="g2">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="n5" value="5. Click Submit to my teacher." style="rounded=1;whiteSpace=wrap;html=0;fillColor=#f3effb;strokeColor=#bba7d8;fontColor=#30283f;fontSize=14;spacing=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="790" y="280" width="335" height="120" />
+        </mxCell>
+        <mxCell id="en5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#a895c0;" edge="1" parent="1" source="g2" target="n5">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="n6" value="6. Read the teacher-review status; return to My exams to check for released results." style="rounded=1;whiteSpace=wrap;html=0;fillColor=#f3effb;strokeColor=#bba7d8;fontColor=#30283f;fontSize=14;spacing=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="790" y="435" width="335" height="120" />
+        </mxCell>
+        <mxCell id="en6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#a895c0;" edge="1" parent="1" source="g2" target="n6">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="plan" value="Plan 0: Do 1–4 in order, including entering the assessment title. Correct an unsuitable file before 5. Then do 6." style="rounded=1;whiteSpace=wrap;html=0;fillColor=#edf6f0;strokeColor=#bba7d8;fontColor=#30283f;fontSize=14;spacing=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="80" y="650" width="1010" height="130" />
+        </mxCell>
+        <mxCell id="note" value="UXplosion · Milestone 3 · HTD 6 matches HTA 6 in Milestone 2. The leaves describe concrete interface actions; branches group actions by phase." style="rounded=1;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#bba7d8;fontColor=#30283f;fontSize=14;spacing=12;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="80" y="810" width="1010" height="80" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
