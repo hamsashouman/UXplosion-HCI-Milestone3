@@ -5,7 +5,7 @@ CSEN 909 Milestone 3 coded web prototype, based on the supplied project descript
 ## Project links
 
 - **GitHub repository:** https://github.com/hamsashouman/UXplosion-HCI-Milestone3
-- **Deployed prototype (team-provided link):** https://uxplosion-learning-lab.mysticseed130.chatgpt.site/
+- **Deployed prototype (team-provided link):** https://hamsashouman.github.io/UXplosion-HCI-Milestone3/
 
 The deployed link may show an older version until the updated `dist/` files are published. Verify it in a private/incognito browser session before submission.
 
