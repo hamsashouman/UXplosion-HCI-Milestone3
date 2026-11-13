@@ -31,12 +31,13 @@ The privately hosted review copy is not evidence of public examiner access. Conf
 
 Use Help & support → Reset example workspace to restart. Student: Upload an exam → choose subject/language → sample or real file preview → submit. Teacher: Assessment review → correct OCR question 2 to 12 → confirm answers → override marks → confirm grades → decide gap and support flag → edit and release feedback. Student: notification → confirmed marks and feedback. Teacher: Support plans → create goal/target/activity/date → complete activity → save → review later sample → record outcome.
 
+
 ## Walkthrough Video
 
-A 2–4 minute recorded demonstration of the
-UXplosion Milestone 3 prototype is available here:
+A 2–4 minute recorded demonstration of the UXplosion Milestone 3 prototype is available here:
 
-[Watch or download the walkthrough](YOUR_RELEASE_URL)
+[Watch or download the walkthrough](https://github.com/hamsashouman/UXplosion-HCI-Milestone3/releases/tag/v1.0-milestone3)
+
 
 ## Included files
 
@@ -95,6 +96,13 @@ JavaScript syntax checked with Node. The revised LearningLab source reported Chr
 ## Attribution
 
 Created with assistance from ChatGPT. Submit the full conversation and all other AI prompts used, as required by the course. The source includes no real pupil records or private team contact details.
+The AI conversation histories are available below:
+
+- [ChatGPT Conversation 1](https://chatgpt.com/c/6af33d1a-eeb0-83ea-bce6-43c999d99c49)
+- [ChatGPT Conversation 2](https://chatgpt.com/share/6af6ff2d-e79c-83e9-8386-b79268b96d67)
+
+
+
 
 ## Fixes in this revision
 
