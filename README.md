@@ -31,6 +31,13 @@ The privately hosted review copy is not evidence of public examiner access. Conf
 
 Use Help & support → Reset example workspace to restart. Student: Upload an exam → choose subject/language → sample or real file preview → submit. Teacher: Assessment review → correct OCR question 2 to 12 → confirm answers → override marks → confirm grades → decide gap and support flag → edit and release feedback. Student: notification → confirmed marks and feedback. Teacher: Support plans → create goal/target/activity/date → complete activity → save → review later sample → record outcome.
 
+## Walkthrough Video
+
+A 2–4 minute recorded demonstration of the
+UXplosion Milestone 3 prototype is available here:
+
+[Watch or download the walkthrough](YOUR_RELEASE_URL)
+
 ## Included files
 
 - dist/index.html, style.css, app.js: runnable prototype.
@@ -69,6 +76,21 @@ The website source download inside `dist/` is regenerated from this merged sourc
 ## Validation
 
 JavaScript syntax checked with Node. The revised LearningLab source reported Chromium testing for the core workflow. This merged build was independently syntax-checked and exercised with focused regression tests for the restored release and intervention safeguards. The deployed website was not updated by packaging this ZIP; verify the final hosted link and downloadable source after deployment.
+
+## Team Members
+
+**Team Name:** UXplosion  
+**Course:** CSEN 909 – Human Computer Interaction  
+**Project:** AI-Powered Personalized Assessment and Learning Gap Detection for Children  
+**Milestone:** 3 – Interactive Prototype
+
+| Team Member | Student ID | Tutorial | Email |
+|---|---|---|---|
+| Malak Amr Abdelmonem Elarnaouty | 58-0357 | T-01 | malak.elarnaouty@student.guc.edu.eg |
+| Hamsa Ahmed Shoumann | 58-3186 | T-12 | hamsa.shouman@student.guc.edu.eg |
+| Aly Walid Aly Amin Youssef | 58-1992 | T-08 | aly.amin@student.guc.edu.eg |
+| Malak Wael | 58-0773 | T-08 | malak.waelabdelhami@student.guc.edu.eg |
+| Mohamed Alaa | 58-9368 | T-08 | mohamed.elmetwaly@student.guc.edu.eg |
 
 ## Attribution
 
